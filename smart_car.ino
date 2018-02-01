@@ -260,11 +260,9 @@ void loop(){
     Serial.println(c);
     if (c == '1')
     {
-      Serial.println("moving");
       moving();
     }
     else if (c == '0') {
-      Serial.print("Stop");
       stap(); 
     }
   }
